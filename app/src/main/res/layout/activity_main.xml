@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".contoller.MainActivity">
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#162649"
+        android:gravity="center"
+        android:padding="5dp"
+        android:autoSizeMinTextSize="15dp"
+        android:autoSizeTextType="uniform"
+        android:text="Matics"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="5dp"
+        android:autoSizeMinTextSize="15dp"
+        android:autoSizeTextType="uniform"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Add New Factory"
+        />
+    <TextView
+        android:id="@+id/activity_main_greeting_txt"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/black"
+        android:text="Factory Name"
+        android:gravity="center_vertical"
+        />
+
+    <EditText
+        android:id="@+id/activity_main_name_input"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/border"
+        />
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/black"
+        android:text="Factory URL"
+        android:gravity="center_vertical"
+        />
+
+    <Button
+        android:id="@+id/activity_main_play_button"
+        android:layout_weight="1.2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="bottom"
+        android:padding="7dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2073d8"
+        android:autoSizeMaxTextSize="20dp"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeTextType="uniform"
+        android:text="Next"
+        />
+
+
+
+
+</LinearLayout>
